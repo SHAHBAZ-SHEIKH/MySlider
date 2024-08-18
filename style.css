@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #5D3FD3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.workMain{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #fafafa;
+
+}
+.head h2{
+    font-size: 30px;
+    border-bottom: 5px solid black;
+    color: #BDB5D5;
+}
+.des-div h2{
+    color:  #E49B0F;
+}
+.imgdiv{
+    width: 30%;
+}
+.imgdiv img{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+} 
+.des-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin:10px 0;
+}
+.btn i{
+    color: #E49B0F;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.surprise button{
+    padding: 5px;
+    border: 1px solid #E49B0F;
+    color: #E49B0F;
+    border-radius: 5px;
+}
+.des-div p{
+    color: #818589;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media (max-width:900px){
+    .imgdiv{
+        width: 50%;
+    }
+    .imgdiv img{
+        width: 200px;
+        border-radius: 50%;
+        height: 200px;
+        text-align: center;
+    } 
+}
+@media (max-width:680px){
+    .imgdiv{
+        width: 60%;
+    }
+    .imgdiv img{
+        width: 200px;
+        border-radius: 50%;
+        height: 200px;
+        text-align: center;
+    }
+    .des-div p{
+        color: #818589;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+    } 
+}
+
+
+@media (max-width:580px){
+    .imgdiv{
+        width: 65%;
+    }
+    .imgdiv img{
+        width: 180px;
+        border-radius: 50%;
+        height: 200px;
+        text-align: center;
+    }
+    .des-div p{
+        color: #818589;
+        font-size: 10px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .workMain{
+        width: 60%;
+    }  
+}
